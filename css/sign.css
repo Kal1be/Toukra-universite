@@ -18,8 +18,8 @@ body{
 header{
     background-color: white;
     border-top: 7px solid rgb(3, 170, 3);
-    padding: 10px 20px;
-    margin-top: 20px;
+    padding: 10px 5px;
+    margin-top: 10px;
 }
 header div{
     display: flex;
@@ -32,10 +32,10 @@ header div{
     height: 60px;
 }
 .header h2{
-    margin-top: 12px;
+    margin-top: 7px;
     font-size: 32px;
     font-weight: bold;
-    margin-left: 10px;
+    margin-left: 5px;
 }
 .header h2 strong{
     color:rgb(0, 201, 0);
@@ -156,7 +156,7 @@ padding: 5px 20px;
     }
     .header{
         margin-left: 0;
-       padding: 3px 10px;
+       padding:0 3px;
     }
     .header h2{
         font-size: 17px;
@@ -171,7 +171,7 @@ padding: 5px 20px;
         height: 50px;
     }
     .hr{
-        margin-left: 20px;
+        margin-left:2;
     }
     nav{
         display: block;
@@ -218,7 +218,7 @@ padding: 5px 20px;
     }
     .footer span{
         display: block;
-        font-size: 14px;
+        font-size: 12px;
         padding: 0 0;
     }
     .span{
