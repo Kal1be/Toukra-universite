@@ -121,14 +121,17 @@ padding: 5px 20px;
 }
 .form .submit{
     text-align: center;
-    margin: 20px 30px;
-    margin-left: 180px;
+    margin: 20px 0;
     padding: 7px 15px;
     color: white;
     background-color: rgb(2, 153, 2);
     border: 2px solid rgb(0, 151, 0);
-    border-radius: 2px;
-    
+    border-radius: 10px;
+    width: 100%;
+    transition: .33s linear;
+}
+.form .submit:hover{
+    border-radius: 0;
 }
 .input{
    border: 2px solid azure;
@@ -195,7 +198,7 @@ padding: 5px 20px;
     }
     .form img{
         margin-left: 0;
-        width: 60px;
+        width: 50px;
     }
     .form p{
         font-size: 16px;
@@ -203,7 +206,10 @@ padding: 5px 20px;
         margin: 0 0;
     }
    .form .submit{
-        margin-left: 60%;
+        /* margin-left: 60%; */
+        margin-left: 0;
+        width: 100%;
+
     }
     .contenu input{
         padding: 10px 0;
